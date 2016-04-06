@@ -1,6 +1,7 @@
 # sketch-practice
 
 
+西乔：“sketch无学习门槛，能用keynote的人就自然会用，但sketch是非常有效的能解决问题的原型工具。对设计复杂度要求不高的，直接可以当设计工具用“
 
 ## 键盘key说明
 
@@ -245,6 +246,14 @@ svg 矢量图标在线合集。虽然很不想为某宝做广告，但是找扁�
 
 
 另外最近大热的Adobe 家新秀 Experience Design (简称XD，莫名喜感)，也支持了原型的制作和同步，不过目前切图，图层等细节功能尚未完善。期待在原型制作领域有更多的好功能出现！
+
+## zeplin
+
+https://www.zeplin.io/
+
+西乔推荐，确实很棒
+
+![Zeplin](img/zeplin.png)
 
 ## 最后的唠叨
 
