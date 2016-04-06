@@ -1,0 +1,470 @@
+
+	    <html>
+	      <head>
+				  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	        <title>README</title>
+					
+					<link href="toc/style/github-bf51422f4bb36427d391e4b75a1daa083c2d840e.css" media="all" rel="stylesheet" type="text/css"/>
+					<link href="toc/style/github2-d731afd4f624c99a4b19ad69f3083cd6d02b81d5.css" media="all" rel="stylesheet" type="text/css"/>
+					<link href="toc/css/zTreeStyle/zTreeStyle.css" media="all" rel="stylesheet" type="text/css"/>
+			
+				  <style>
+					pre {
+					    counter-reset: line-numbering;
+					    border: solid 1px #d9d9d9;
+					    border-radius: 0;
+					    background: #fff;
+					    padding: 0;
+					    line-height: 23px;
+					    margin-bottom: 30px;
+					    white-space: pre;
+					    overflow-x: auto;
+					    word-break: inherit;
+					    word-wrap: inherit;
+					}
+
+					pre a::before {
+					  content: counter(line-numbering);
+					  counter-increment: line-numbering;
+					  padding-right: 1em; /* space after numbers */
+					  width: 25px;
+					  text-align: right;
+					  opacity: 0.7;
+					  display: inline-block;
+					  color: #aaa;
+					  background: #eee;
+					  margin-right: 16px;
+					  padding: 2px 10px;
+					  font-size: 13px;
+					  -webkit-touch-callout: none;
+					  -webkit-user-select: none;
+					  -khtml-user-select: none;
+					  -moz-user-select: none;
+					  -ms-user-select: none;
+					  user-select: none;
+					}
+
+					pre a:first-of-type::before {
+					  padding-top: 10px;
+					}
+
+					pre a:last-of-type::before {
+					  padding-bottom: 10px;
+					}
+
+					pre a:only-of-type::before {
+					  padding: 10px;
+					}
+			
+					.highlight { background-color: #ffffcc } /* RIGHT */
+					</style>
+	      </head>
+	      <body>
+				  <div>
+							<div style='width:25%;'>
+									<ul id="tree" class="ztree" style='width:100%'>
+		
+									</ul>
+							</div>
+			        <div id='readme' style='width:70%;margin-left:20%;'>
+			          	<article class='markdown-body'>
+			            	<style>.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #f0f0f0; }
+.highlight .c { color: #60a0b0; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #007020; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .cm { color: #60a0b0; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #007020 } /* Comment.Preproc */
+.highlight .c1 { color: #60a0b0; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #60a0b0; background-color: #fff0f0 } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #c65d09; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #007020; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #007020; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #007020; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #007020 } /* Keyword.Pseudo */
+.highlight .kr { color: #007020; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #902000 } /* Keyword.Type */
+.highlight .m { color: #40a070 } /* Literal.Number */
+.highlight .s { color: #4070a0 } /* Literal.String */
+.highlight .na { color: #4070a0 } /* Name.Attribute */
+.highlight .nb { color: #007020 } /* Name.Builtin */
+.highlight .nc { color: #0e84b5; font-weight: bold } /* Name.Class */
+.highlight .no { color: #60add5 } /* Name.Constant */
+.highlight .nd { color: #555555; font-weight: bold } /* Name.Decorator */
+.highlight .ni { color: #d55537; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #007020 } /* Name.Exception */
+.highlight .nf { color: #06287e } /* Name.Function */
+.highlight .nl { color: #002070; font-weight: bold } /* Name.Label */
+.highlight .nn { color: #0e84b5; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #062873; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #bb60d5 } /* Name.Variable */
+.highlight .ow { color: #007020; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #40a070 } /* Literal.Number.Bin */
+.highlight .mf { color: #40a070 } /* Literal.Number.Float */
+.highlight .mh { color: #40a070 } /* Literal.Number.Hex */
+.highlight .mi { color: #40a070 } /* Literal.Number.Integer */
+.highlight .mo { color: #40a070 } /* Literal.Number.Oct */
+.highlight .sb { color: #4070a0 } /* Literal.String.Backtick */
+.highlight .sc { color: #4070a0 } /* Literal.String.Char */
+.highlight .sd { color: #4070a0; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #4070a0 } /* Literal.String.Double */
+.highlight .se { color: #4070a0; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #4070a0 } /* Literal.String.Heredoc */
+.highlight .si { color: #70a0d0; font-style: italic } /* Literal.String.Interpol */
+.highlight .sx { color: #c65d09 } /* Literal.String.Other */
+.highlight .sr { color: #235388 } /* Literal.String.Regex */
+.highlight .s1 { color: #4070a0 } /* Literal.String.Single */
+.highlight .ss { color: #517918 } /* Literal.String.Symbol */
+.highlight .bp { color: #007020 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #bb60d5 } /* Name.Variable.Class */
+.highlight .vg { color: #bb60d5 } /* Name.Variable.Global */
+.highlight .vi { color: #bb60d5 } /* Name.Variable.Instance */
+.highlight .il { color: #40a070 } /* Literal.Number.Integer.Long */</style>
+<h1>sketch-practice</h1>
+
+<h2>键盘key说明</h2>
+
+<p>大部分人都记不住这些按键，下面给出说明</p>
+
+<table><thead>
+<tr>
+<th style="text-align: center">Symbol</th>
+<th style="text-align: center">Key</th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="text-align: center">&#8984;</td>
+<td style="text-align: center">Command Key</td>
+</tr>
+<tr>
+<td style="text-align: center">&#8963;</td>
+<td style="text-align: center">Control Key</td>
+</tr>
+<tr>
+<td style="text-align: center">&#8997;</td>
+<td style="text-align: center">Option Key</td>
+</tr>
+<tr>
+<td style="text-align: center">&#8679;</td>
+<td style="text-align: center">Shift Key</td>
+</tr>
+</tbody></table>
+
+<h1>4步上手</h1>
+
+<p>http://www.ui.cn/detail/110445.html</p>
+
+<p>本文系sketch快速上手指南，适用于没时间细细研究工具的同学。据内部线报，某宝UED全线交互&amp;视觉，部分产品&amp;开发已重度使用Sketch，甚至有小组专门开发相关插件。为了让更多人体验到Sketch的高效，以及回答『能不能一下就教会我怎么用Sketch？』等老大难问题，我总结了使用Sketch的核心步骤，精简为A.R.T.S四步。</p>
+
+<p>实在想不出比这更快的上手方式了 ＝)</p>
+
+<p><img src="img/531400.jpg" alt="531400"></p>
+
+<p>这图说的挺好的</p>
+
+<h2>准备工具</h2>
+
+<ul>
+<li>一台Mac：希望PC同学看到这里不要默默按下关闭… 话说Apple新一季正好到了，考虑一下？</li>
+<li>Sketch软体：虽说有试用版也有破解版，但699RMB的价格其实并不高。一个包包换一个设计师饭碗呢。 而且软件体积不到39M，跑起来飞快，启动和等待时间几乎忽略不计。实在不想花钱想先试试的话…天朝百度你懂的</li>
+<li>Magic Mouse鼠标（可选）：刚开始会觉得难用，但习惯后全方向移动画布的感觉确实很赞。没有触控板的iMac强烈推荐。</li>
+</ul>
+
+<h2>ARTS 教程，只要四步</h2>
+
+<p>ARTS四个字母其实是Sketch的四个快捷键，也是使用流程中的四个重要步骤，分别对应 Artboard “创建画板”, Rectangle “创建矩形”，Text “创建文字” 和 Slice “创建切片”。这四个操作都可以在左上方的 Insert 新建菜单中找到，但记下这四个常用快捷键会极大地加快设计流程。</p>
+
+<p><img src="img/531402.jpg" alt="531402"></p>
+
+<p>“画板”的概念，是Sketch有别与其他工具的最重要元素之一，也是我作为交互最喜爱的功能。简单来说，你设计的应用里的多个界面可以各自放在单独的画板里，然后所有的这些画板同时放在一个界面中，让你更有效地在设计时审视界面间的逻辑关系。多画板设计是设计软件的大势所向，新版的Adobe Photoshop CC 2015 和 Adobe Experience Design都能见到它的影子。</p>
+
+<p><img src="img/532033.gif" alt="532033"></p>
+
+<p>所以首次进入界面，不要被洁白的底色所困惑，请先按下A键，新建一个画板。Sketch预设了很多尺寸的画板，比如想设计 Iphone6 界面，按下A后直接选用右侧的Iphone6即可。不要为画板中默认被除以2的尺寸担心，这是矢量作图，后续切图中你可以输出任意你想要的尺寸。</p>
+
+<p>如果预设中没有想要的尺寸，你也可以在按下A后直接在界面中拖动鼠标，建立任何尺寸的画板，然后随意地挪动它。所有画板的尺寸，位置，和背景颜色，都可以在选中画板后右侧【属性栏】中精确调整。你可以单击画板的名称来选中画板，或者在左侧【图层栏】中单击它。</p>
+
+<p>在完成多个画板后，想把他们合到一张大的流程图里，并做好相应的标注和说明的话，你可以在所有画板下新建一个大的画板，把所有小画板都装起来，并在上面绘制相应的流程箭头和说明。所有画板都可以单独输出为一张图，方法是选中画板，在右侧属性栏中，点击Export右侧的加号，选择想要的尺寸倍率和图片格式，点击右下角Export Artboard即可。</p>
+
+<p><img src="img/531412.jpg" alt="531412"></p>
+
+<p>所有复杂的界面都由简单的基本元素构成，作为交互来说，最常用的初始元素是矩形无疑。</p>
+
+<p><img src="img/532042.gif" alt="532042"></p>
+
+<p>单击R并拖动鼠标后，你会得到一个矩形为基本元素。单击选中这个矩形后，即可在右侧的属性栏中任意改变它的位置尺寸，圆角半径，透明度，颜色等。从一个简单的矩形开始，他既可能成为一个重要元素的一部分（比如涉及千亿流水的“购买”按钮），也可以变成任意你能想象到的形状。</p>
+
+<p>双击这个矩形，即进入设计师们熟悉的贝塞尔曲线编辑(Edit)模式。选中已有的点即可编辑点的各项属性，点击矩形边缘可以新增编辑点。按住shift或者直接拖动，即可选中并时移动多个编辑点。</p>
+
+<p>如果想创建其他形状的基本元素（比如圆形来表示头像），也可以按下O并拖动来新建一个圆形（Oval），或者L来插入一条直线（Line）。多个图形可以通过布尔运算迅速组合成新的图形，方法包括“组合”，“相减”，“相交” 和 “相异”。这四个按钮在上方工具栏，视觉同学用到它的次数会多一些。</p>
+
+<p>Tips：如果想看到某个元素和其他临近元素的距离，你可以选中它并按下alt。 这能帮助设计师精确地调整布局。</p>
+
+<p><img src="img/531414.jpg" alt="531414"></p>
+
+<p>文字是设计稿中必不可少的元素，合适的字体，尺寸和对齐方式足以花费设计师成吨的时间。</p>
+
+<p><img src="img/532057.gif" alt="532057"></p>
+
+<p>点击T并拖动鼠标来创建一段文字，文字常见的属性都可以在右侧调整。比较特殊的是宽度(Width)属性，你可以选择自动(Auto)来通过调节宽度以自适应高度，或者固定(Fixed)来固定文字宽高。注意在Fixed下，可能出现文字被裁剪的情况（特别是在增加字体大小之后）。</p>
+
+<p>注意：Sketch对中文字体的显示偶尔会出现小Bug，编辑时文字消失。大多数情况下切换宽度的两个状态就能刷新并解决这个问题。后续新版本有望解决。</p>
+
+<p>当你已经建立了一个矩形并写了一段文字后，你可能想把他们编辑到一个组（比方说设计一个按钮），你可以按住 shift 同时选中要成组的元素，随后按下Command + G 来让他们成组（或者右键选择Group Seletion）。之后再单击他们时，默认会选中这个组。双击这个组可以在组内选中内部元素。同时你也能看到左侧的图层栏中，它们被放到了一个文件夹中，并可以被拖动来改变显示的前后顺序。</p>
+
+<ul>
+<li>Tips：你可以按住Command 并单击鼠标左键来快速选中组里最深层的内容。这在跨组复选元素时非常有用。</li>
+<li>Tips2：按住alt并拖动元素，可以复制这个内容到指定的位置。这对单个元素，成组元素，乃至画板都有效。这也是ps和ai里通用的复制方式。</li>
+</ul>
+
+<p><img src="img/531415.jpg" alt="531415"></p>
+
+<p>当你想切出画板内的一个部分而非整个画板的时候，切片工具便派上了用场。与PS繁琐的切图工具不同，Sketch的切图工具非常简单直观，按下S并拖出一个矩形即可 - 这个简单的虚线矩形即是一个导出切片。</p>
+
+<p><img src="img/532059.gif" alt="532059"></p>
+
+<p>和所有其他元素一样，切片有自己的图层，也可以在右侧改变它的各种属性，唯一不同的是可以在右下导出这个切片里的内容，导出图默认会以切面的图层名称命名。</p>
+
+<p>如果已经做好了一堆切片，可又想改动切片底下的内容怎么办？只需点击左下角选择切片图层或普通图层的互动开关（默认都可互动）。关闭了切片的互动开关后，即可在不影响切片的情况下改变普通图层，需要切图时再点亮开关即可。</p>
+
+<p>切片的另外一个被许多人称道的功能，便是它自由的输出尺寸。点击切片并在右侧属性栏内改变Size内x乘的数值，便可以输出任意倍率的图片。你甚至可以添加多个尺寸，一次性输出1x, 2x, 3x, 0.9x 甚至是10x图到一个文件夹。你还可以直接通过修改Suffix（后缀）来提前命名导出图，比如导出button_@2x.png,  拖进xcode便可自动识别图片，省去了ios开发的繁琐命名工作。</p>
+
+<p>另外，sketch也是难得的可以轻松导出svg格式的轻量制图软件。这些细微的细节整合起来，组成了方便快捷的Sketch输出方式。</p>
+
+<ul>
+<li>Tips: 切片和画板的导出预览图，可以直接拖拽出来添加到文档里，连导出的步骤都省了。</li>
+</ul>
+
+<h2>进阶功能册</h2>
+
+<p>以下是一些让工作更愉快的进阶小技巧，有兴趣可以看一下 ＝）</p>
+
+<h3>版本管理</h3>
+
+<p>版本管理是有条理归档交互稿的重要方法。可以通过Pages(页面)的方式实现。点击左上角当前页面右侧的方形小icon，即可展开Pages管理面板。一个Page页面可以理解为存放Artboard画板的空间，每次小版本的迭代，可以在这里直接复制一个Page以版本号命名重命名，内部的画板都会被复制。交互同学应该会觉得很熟悉 - 这样的版本管理方式与Axure相近；而视觉同学也可以避免建立多个文件来管理版本的方式</p>
+
+<h3>标尺，格子和参考线</h3>
+
+<p><img src="img/532139.gif" alt="532139"></p>
+
+<p>标尺是精细化设计的必备工具。 按下ctrl + R 快速显示标尺（Ruler），或者单击右上角View也可以直接设置显示/隐藏标尺，或者格子(Grid)。在菜单内settings里面进行更详细的设置。拉参考线的方式是在标尺上单击，且参考线只能在标尺上被移动。如果把参考线拉出视窗外，参考线即被删除，这点与Axure不同需要留意。</p>
+
+<h3>蒙板</h3>
+
+<p><img src="img/532143.gif" alt="532143"></p>
+
+<p>蒙板可以做出很多有趣的设计。希望用上层作为遮罩显示出下层的内容，只需要选中两个重叠的元素并点击顶部的Mask（蒙板）即可，他们会被合并在一个文件夹内，且上方的元素会成为蒙板，有显著的小圆点标志。你可以随时拖动新的元素进入文件夹底部来作为隐藏内容，或者右键图层并选中“Use as mask” ，来让新的图层作为蒙板。</p>
+
+<h3>符号</h3>
+
+<p>许多共用元素可以通过“符号”来进行批量调整。选中一个可以复用的组元素（如按钮，输入框，菜单栏等），点击左上方创建符号（create symbol），即创建了一个通用样式的组元素，且左侧图层栏中文件夹的颜色变为了紫色。之后的设计中，你随时可以通过左上角 “插入”-&gt;“插入符号” insert symbol 插入已经做好的这个组元素。任何对这个组元素的调整都会立即同步到所有符号中。</p>
+
+<h3>同步到手机</h3>
+
+<p>设计师经常会将设计稿导入手机以查看真机效果。你可以花点小钱另外购置Sketch Mirror的手机应用，然后通过点击右上角的Mirror按钮来无缝把设计稿同步到手机中。也可以像我一样使用Principle等应用，直接设计原型或动效来传输到手机里。当然，鉴于Sketch轻松愉快的切图，把图片导出并通过微信或者RTX发到手机，也并不是什么太麻烦的事情。</p>
+
+<h3>插件</h3>
+
+<p>Sketch一向以简洁和高效著称，只列出设计师最需要，最常用的功能。然而如果有更进阶的需求，设计师可以选用各式各样的Sketch插件来满足定制化的要求，如自动安卓切图，自动生成.9图，自动填充等。知乎和优设上有各式各样的插件推荐，这里只重点推荐Craft 和 Marketch</p>
+
+<h4>Craft ，将时间省到极致</h4>
+
+<p>其实是四个小组件和合集，分别可以『行列复制组内容』，『一键填充本地或在线图片』，『规范生成和管理』以及『默认文字按类别』，连设计师从网上找示例图片和想默认文字的时间都省掉了。另外Craft收购了我一直心心念的 SilverFlow，于是Craft 2.0很快连可交互原型都能做了。具体请看视频（英文）</p>
+
+<p>http://v.qq.com/boke/page/o/0/3/o01883vw283.html</p>
+
+<p>Craft主页及下载地址：http://labs.invisionapp.com/craft</p>
+
+<h4>Marketch，设计和开发的终极分歧终端机</h4>
+
+<p>将设计稿一键转化成前端网站（可传送的本地文件），让前端同学直接参考。之前曾经使用过zeplin小飞艇, 可以在线做同样的事情。然而考虑到注册成本和云文件安全性，后来还是弃用了。Marketch则更好的解决了这个问题：不需要注册即可浏览，而且保存成本地文件（当然是以开发者不商业化为代价...God Bless Programmers）。</p>
+
+<p><img src="img/533673.png" alt="533673"></p>
+
+<p>Demo地址（生成效果）: http://tudou527.github.io/marketch/</p>
+
+<p>Github 下载地址：https://github.com/tudou527/marketch</p>
+
+<h2>配套软件集</h2>
+
+<p>再推荐几个让交互用 Sketch 更幸福的配套工具，其中有不少是对PS一样支持的。</p>
+
+<p><img src="img/531449.jpg" alt="531449"></p>
+
+<h3>RightFont</h3>
+
+<ul>
+<li>Mac上的字体管理专家（收费，有试用版）</li>
+</ul>
+
+<p><img src="img/531456.png" alt="531456"></p>
+
+<p>Mac上的字体管理神器，可以筛选字体，预览字体效果，点击即应用字体到Sketch，或收藏常用的字体。我试过搜索同类软件的免费版，但最终还是没有一款能匹敌它。最新版本甚至内置了多个图标库，直接从里面就可以搜索svg格式的图标并拖拽到sketch里用，颜色任调，双击还可以编辑形状！用上这个功能后，我乖乖付费成为了人民币玩家。</p>
+
+<p>图文介绍戳 http://www.uisdc.com/font-manage-tool-rightfont</p>
+
+<p>国内合作方 http://zhuanlan.zhihu.com/pinapps/20435676</p>
+
+<h3>IconFont</h3>
+
+<ul>
+<li>矢量图标搜索利器（免费）</li>
+</ul>
+
+<p><img src="img/531455.png" alt="531455"></p>
+
+<p>svg 矢量图标在线合集。虽然很不想为某宝做广告，但是找扁平化图标用这个网站确实方便。对交互能节省很多找图标的时间，也能为轻量图标制作找灵感。</p>
+
+<p>网址： www.iconfont.cn</p>
+
+<h3>IconJar</h3>
+
+<ul>
+<li>专业图标管家（收费，有破解版）</li>
+</ul>
+
+<p>如果你有收集并使用图标的习惯，那么它是我用过最适合在mac上管理图标素材的软件。图标可以轻松分组，并打包带走。</p>
+
+<p><img src="img/531454.png" alt="531454"></p>
+
+<p>介绍链接 http://www.uisdc.com/icon-manage-tool-iconjar</p>
+
+<h3>Principle</h3>
+
+<ul>
+<li>1分钟做动效（收费，有试用版）</li>
+</ul>
+
+<p><img src="img/531451.png" alt="531451"></p>
+
+<p>高效制作页面动效的工具，学习曲线非常平滑。它的设计思路是，绘制好初始帧和结束帧，软件会自动计算并生成补间动画（两帧之间必须有相同元素）。产出可以同步到真机演示，也可导出成gif或者mov传播。相比其他工具，Principle支持直接通过拖动sketch内的图层或者文件夹到Principle中，连切图的工作都省了。后续计划再写一篇Principle的上手 （手动挖坑）</p>
+
+<h3>Silverflow（即将推出）</h3>
+
+<ul>
+<li>设计稿变原型(已加入Craft豪华午餐包)</li>
+</ul>
+
+<p>一个开发中的插件，可以支持设计师在Sketch里直接做可交互原型。如前文所说，目前它家已经被大名鼎鼎的Invision团队收购，加入了invision旗下的craft插件合集。以后做好的设计稿，可以直接在输出成可交互Demo并导入到手机给其他人试用，不需要另外的原型工具…想想怎是一个赞字了得。</p>
+
+<p>想了解更多，可以查看之前翻译的介绍Silverflow的文章 http://www.ui.cn/detail/81033.html</p>
+
+<p>另外最近大热的Adobe 家新秀 Experience Design (简称XD，莫名喜感)，也支持了原型的制作和同步，不过目前切图，图层等细节功能尚未完善。期待在原型制作领域有更多的好功能出现！</p>
+
+<h2>最后的唠叨</h2>
+
+<p>作为一个绘图工具，Sketch实在太直观了，很多功能保证你一看就会用。真难想象我居然花了这么多字数来介绍他。其实，真正难的不是上手，而是用它开始画第一个界面。还是那句话：工具只是工具，更重要的是你的idea。说这么多，不如现在就开始，A一个画板，结合一个工作项目来试一试它吧 - 会比你想象中的容易多了。</p>
+
+<p>至于是否要替代Axure或者Photoshop, 我想它们间并不冲突，你可以都试用之后，再选择 “最适合自己的” 作为生产工具。对我来说，Sketch兼顾了“快”和“精细”的要求。而 “天下武功，唯快不破”。</p>
+
+<h1>快捷键操作</h1>
+
+<h2>用正确的方式缩放</h2>
+
+<ul>
+<li>缩放到100%：⌘+0；</li>
+<li>查看你画布全部的设计：⌘+1;</li>
+<li>缩放特定的对象：选择对象然后按下⌘+2。</li>
+</ul>
+
+<h2>隐藏/显示sidebars</h2>
+
+<p>如果你在一个小的屏幕上作业，你可能需要隐藏左右两边的图层面板（Layer-List-sidebar）和右侧的工具面板（Inspector Sidebar）</p>
+
+<ul>
+<li>只隐藏左侧⌘+⌥+1</li>
+<li>只隐藏右侧⌘+⌥+2</li>
+<li>隐藏或显示全部使用⌘+⌥+3</li>
+</ul>
+
+<h2>全屏模式</h2>
+
+<p>进入”Presentation” mode(全屏模式)，将会让你的作品全屏展示</p>
+
+<ul>
+<li>按下⌘+.</li>
+</ul>
+
+<h3>标尺</h3>
+
+<p>在标尺上双击可以添加参考线，将参考线拖到最左侧或者最右侧就会将其删除（直接delete也可以）</p>
+
+<ul>
+<li>显示或者隐藏标尺：Ctrl+R</li>
+</ul>
+
+<h2>查看对象间的margin值（CSS属性）</h2>
+
+<p>按下⌥，选中对象即可</p>
+
+<h2>改变对象尺寸</h2>
+
+<p>按下⌘+方向键可以改变对象的尺寸，同样的按下⇧+⌘+方向键可以每次10px的改变对象的尺寸</p>
+
+<h2>为对象命名和建组</h2>
+
+<p>每次我创建新的对象的时候，为其名一个有意义的名字或分组</p>
+
+<ul>
+<li>改名使用⌘+R</li>
+<li>建组使用⌘+G</li>
+</ul>
+
+<h2>复制对象</h2>
+
+<ul>
+<li>复制使用⌘+C</li>
+<li>粘贴使用⌘+V</li>
+<li>复制后粘贴⌘+D</li>
+</ul>
+
+<h1>推荐</h1>
+
+<p>先聊聊它秒杀Photoshop的原因：</p>
+
+<ul>
+<li><a href="http://www.uisdc.com/intimate-sketch-feature">《UI设计师新宠！聊聊SKETCH那些方便好用的贴心功能》</a></li>
+</ul>
+
+<p>来两篇Sketch新鲜教程练手！</p>
+
+<ul>
+<li><a href="http://www.uisdc.com/use-sketch-design-switch-1">《设计师新宠！教你利用SKETCH创建彩色开关（上）》</a></li>
+<li><a href="http://www.uisdc.com/use-sketch-design-switch-2">《设计师新宠！教你利用SKETCH创建彩色开关（下）》</a></li>
+</ul>
+
+			          	</article>
+			        </div>
+					</div>
+	      </body>
+	    </html>
+			<script type="text/javascript" src="toc/js/jquery-1.4.4.min.js"></script>
+			<script type="text/javascript" src="toc/js/jquery.ztree.all-3.5.min.js"></script>
+			<script type="text/javascript" src="toc/js/ztree_toc.js"></script>
+      <script type="text/javascript" src="toc/toc_conf.js"></script>
+      
+			<SCRIPT type="text/javascript" >
+			<!--
+			$(document).ready(function(){
+          var css_conf = eval(markdown_panel_style);
+          $('#readme').css(css_conf)
+          
+          var conf = eval(jquery_ztree_toc_opts);
+  				$('#tree').ztree_toc(conf);
+
+				
+			});
+			//-->
+			</SCRIPT>
+	  
