@@ -157,3 +157,28 @@ Craft主页及下载地址：http://labs.invisionapp.com/craft
 
 ![533673](img/533673.png)
 
+Demo地址（生成效果）: http://tudou527.github.io/marketch/
+
+Github 下载地址：https://github.com/tudou527/marketch
+
+
+##  配套软件集
+
+再推荐几个让交互用 Sketch 更幸福的配套工具，其中有不少是对PS一样支持的。
+
+![531449](img/531449.jpg)
+
+### RightFont
+
+- Mac上的字体管理专家（收费，有试用版）
+
+![531456](img/531456.png)
+
+        
+Mac上的字体管理神器，可以筛选字体，预览字体效果，点击即应用字体到Sketch，或收藏常用的字体。我试过搜索同类软件的免费版，但最终还是没有一款能匹敌它。最新版本甚至内置了多个图标库，直接从里面就可以搜索svg格式的图标并拖拽到sketch里用，颜色任调，双击还可以编辑形状！用上这个功能后，我乖乖付费成为了人民币玩家。
+
+图文介绍戳 http://www.uisdc.com/font-manage-tool-rightfont
+
+国内合作方 http://zhuanlan.zhihu.com/pinapps/20435676
+
+### 
