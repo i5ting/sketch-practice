@@ -251,7 +251,7 @@ svg 矢量图标在线合集。虽然很不想为某宝做广告，但是找扁�
 
 https://www.zeplin.io/
 
-西乔推荐，确实很棒
+西乔推荐，导出工具，确实很棒
 
 ![Zeplin](img/zeplin.png)
 
