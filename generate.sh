@@ -1,2 +1,2 @@
-cp -rf img preview/
+cp -rf img preview/img
 tocmd_conf -f README.md 
