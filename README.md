@@ -255,19 +255,21 @@ https://www.zeplin.io/
 
 ![Zeplin](img/zeplin.png)
 
-## Sip for Mac and iPhone
+## 据说不错的，观望中
+
+### Sip for Mac and iPhone
 
 Sip是一个非常出色的iOS app，它能帮助你从照片中创建色板。并且你可以在你的Mac或手机上随时随地使用它捕捉那些美丽的色彩。
 
 ![Sip](img/sip.png)
 
-## Affinity Designer
+### Affinity Designer
 Affinity Designer是Mac上一个快速、流畅以及精确的矢量图形设计软件。你可以使用它来作广告、图标、UI或是创作概念艺术。在全世界超过 2500 个应用商店评级中获得平均 5 颗星—并且从一开始就成为了“编辑推荐选择”，被特别推荐为 2014 最佳新应用程序之一，并因其令人惊叹的性能和功能在 2015 年 6 月的苹果全球开发者大会上获得了令人垂涎的苹果设计奖。
 
-## PaintCode
+### PaintCode
 你可以使用PaintCode方便地进行图形设计，你也可以将SVG或PSD文件导入到PaintCode中，然后它就能帮助你将你的设计转换成Objective-C,Swift或C#代码。
 
-## Pixave 2
+### Pixave 2
 
 设计师需要不断去收集优秀的设计作品，以此来提升自己的设计感觉。我之前一直在使用Ember,但它已经停产了，并且它并不能支持一些最新格式的设计文件，比如Sketch,Affinity Designer等。Pixave 2 是一个很好的替代者，它支持几乎所有与设计相关的文件格式。
 
