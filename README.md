@@ -357,4 +357,6 @@ Affinity Designer是Mac上一个快速、流畅以及精确的矢量图形设计
 - [《设计师新宠！教你利用SKETCH创建彩色开关（上）》](http://www.uisdc.com/use-sketch-design-switch-1)
 - [《设计师新宠！教你利用SKETCH创建彩色开关（下）》](http://www.uisdc.com/use-sketch-design-switch-2)
 
+ppt推荐
  
+ - [Sketch 基础用法，我的好朋友陈蔚虎写的](https://speakerdeck.com/idavid/sketch-ji-chu-yong-fa)
