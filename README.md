@@ -4,16 +4,13 @@
 
 西乔女神：“sketch无学习门槛，能用keynote的人就自然会用，但sketch是非常有效的能解决问题的原型工具。对设计复杂度要求不高的，直接可以当设计工具用”
 
-## 键盘key说明
+## 国外的startup三个标配
 
-大部分人都记不住这些按键，下面给出说明
+感谢西乔指点
 
-| Symbol    | Key         | 
-|:---------:|:-----------:|
-|  &#8984;  | Command Key |
-|  &#8963;  | Control Key |
-|  &#8997;  | Option Key  |
-|  &#8679;  | Shift Key   |
+- Sketch
+- Zeplin
+- Invision
 
 # 女神的励志故事
 
@@ -264,6 +261,17 @@ https://www.zeplin.io/
 
 ![Zeplin](img/zeplin.png)
 
+## invision，轻松制作移动端交互原型
+
+https://www.invisionapp.com/
+
+西乔推荐，
+
+![Invision](img/invision.png)
+
+
+redpen和invision有点类似，貌似没有invision强大
+
 ## 据说不错的，观望中
 
 ### Sip for Mac and iPhone
@@ -273,6 +281,7 @@ Sip是一个非常出色的iOS app，它能帮助你从照片中创建色板。�
 ![Sip](img/sip.png)
 
 ### Affinity Designer
+
 Affinity Designer是Mac上一个快速、流畅以及精确的矢量图形设计软件。你可以使用它来作广告、图标、UI或是创作概念艺术。在全世界超过 2500 个应用商店评级中获得平均 5 颗星—并且从一开始就成为了“编辑推荐选择”，被特别推荐为 2014 最佳新应用程序之一，并因其令人惊叹的性能和功能在 2015 年 6 月的苹果全球开发者大会上获得了令人垂涎的苹果设计奖。
 
 ### PaintCode
@@ -289,11 +298,7 @@ Affinity Designer是Mac上一个快速、流畅以及精确的矢量图形设计
 作为一个绘图工具，Sketch实在太直观了，很多功能保证你一看就会用。真难想象我居然花了这么多字数来介绍他。其实，真正难的不是上手，而是用它开始画第一个界面。还是那句话：工具只是工具，更重要的是你的idea。说这么多，不如现在就开始，A一个画板，结合一个工作项目来试一试它吧 - 会比你想象中的容易多了。
 
 
-
 至于是否要替代Axure或者Photoshop, 我想它们间并不冲突，你可以都试用之后，再选择 “最适合自己的” 作为生产工具。对我来说，Sketch兼顾了“快”和“精细”的要求。而 “天下武功，唯快不破”。
-
-
-
 
 # 快捷键操作
 
@@ -365,3 +370,5 @@ ppt推荐
  移动端设计资料整理
  
  - https://github.com/i5ting/mobile-design-doc
+ - [15 分钟带你入门 Fuse](http://tips.producter.io/15-fen-zhong-gao-su-ni-guan-yu-fuse-de-yi-qie/)
+ 
