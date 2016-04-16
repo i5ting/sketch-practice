@@ -360,3 +360,7 @@ Affinity Designer是Mac上一个快速、流畅以及精确的矢量图形设计
 ppt推荐
  
  - [Sketch 基础用法，我的好朋友陈蔚虎写的](https://speakerdeck.com/idavid/sketch-ji-chu-yong-fa)
+ 
+ 移动端设计资料整理
+ 
+ - https://github.com/i5ting/mobile-design-doc
