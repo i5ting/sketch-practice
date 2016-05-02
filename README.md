@@ -223,6 +223,8 @@ svg 矢量图标在线合集。虽然很不想为某宝做广告，但是找扁�
 
 网址： www.iconfont.cn
 
+另外http://www.iconpng.com/ 这个网址可以作为参考
+
 ### IconJar
 
 - 专业图标管家（收费，有破解版）
